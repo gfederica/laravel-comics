@@ -3,7 +3,7 @@
 {{-- richiamo il segnaposto con section --}}
 @section('main-content')
     <section class="container">
-        <button class="h2">CURRENT SERIES</button>
+        <button class="big-btn">CURRENT SERIES</button>
         <div class="cards">
             @foreach ($comicsArray as $comic)
                 <div class="card">
@@ -14,6 +14,6 @@
                 </div>
             @endforeach
         </div>
-        <button class="h5">Load More</button>
+        <button class="small-btn">Load More</button>
     </section>
 @endsection

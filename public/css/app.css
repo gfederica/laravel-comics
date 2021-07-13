@@ -4630,7 +4630,17 @@ main {
 button {
   background-color: #0282F9;
   color: white;
+  border: none;
+  padding: 8px 30px;
+}
+
+.big-btn {
+  font-size: 20px;
   font-weight: bold;
+}
+
+.small-btn {
+  font-size: 14px;
 }
 
 * {
@@ -4655,7 +4665,17 @@ main {
 button {
   background-color: #0282F9;
   color: white;
+  border: none;
+  padding: 8px 30px;
+}
+
+.big-btn {
+  font-size: 20px;
   font-weight: bold;
+}
+
+.small-btn {
+  font-size: 14px;
 }
 
 header {
@@ -4760,7 +4780,22 @@ main {
 button {
   background-color: #0282F9;
   color: white;
+  border: none;
+  padding: 8px 30px;
+}
+
+.big-btn {
+  font-size: 20px;
   font-weight: bold;
+}
+
+.small-btn {
+  font-size: 14px;
+}
+
+.container {
+  position: relative;
+  padding: 40px 0;
 }
 
 .cards {
@@ -4781,6 +4816,16 @@ button {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.big-btn {
+  position: absolute;
+  top: -15px;
+}
+
+.small-btn {
+  display: flex;
+  margin: auto;
 }
 
 .jumbotron {

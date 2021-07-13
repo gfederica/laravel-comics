@@ -29,6 +29,13 @@ main {
 button {
     background-color: $lightBlue;
     color: white;
+    border: none;
+    padding: 8px 30px;
+}
+.big-btn {
+    font-size: 20px;
     font-weight: bold;
 }
-
+.small-btn {
+    font-size: 14px;
+}

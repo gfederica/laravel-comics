@@ -1,5 +1,10 @@
 @import 'partials/commons';
 
+.container {
+    position: relative;
+    padding: 40px 0;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -14,4 +19,14 @@
             object-position: top;
         }
     }
+}
+
+.big-btn {
+    position: absolute;
+    top: -15px;
+}
+
+.small-btn {
+    display: flex;
+    margin: auto;
 }
