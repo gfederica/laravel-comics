@@ -1,8 +1,8 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 @import 'partials/commons';
-@import 'partials/_header';
-
+@import 'partials/header';
+@import 'partials/comics';
 
 
 .jumbotron {
@@ -11,3 +11,4 @@
     background-position: top;
     background-repeat: no-repeat;
 }
+

@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    // importo il file comics.php per avere accesso all'array
+    $comics = config("comics");
+    return view('home', 
+    // passo l'array nel return, salvandolo con una variabile che posso utilizzare in blade
+    [
+        "comicsArray" => $comics
+    ]
+);
 });

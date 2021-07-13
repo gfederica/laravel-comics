@@ -1,22 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.main')
 
-        <title>DC Comics</title>
-
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    </head>
-    <body>
-        @include('partials.header')    
-
-        <main>
-            <div class="jumbotron"></div>
-            <h1>Main content</h1>
-        </main>
-
-        @include('partials.footer')
-    </body>
-</html>
+{{-- richiamo il segnaposto con section --}}
+@section('main-content')
+    <section class="container">
+        <button class="h2">CURRENT SERIES</button>
+        <div class="cards">
+            @foreach ($comicsArray as $comic)
+                <div class="card">
+                    <div class="cover">
+                        <img src="{{$comic["thumb"]}}" alt="copertina">
+                    </div>
+                    <p>{{$comic["title"]}}</p>
+                </div>
+            @endforeach
+        </div>
+        <button class="h5">Load More</button>
+    </section>
+@endsection

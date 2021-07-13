@@ -1,11 +1,13 @@
 <header>
-    <div class="container">
-        <div class="pre-header">
+    <div class="wrap-blue">
+        <div class="pre-header container">
             <ul>
                 <li><a href="#">DC POWER℠ VISA®</a></li>
                 <li><a href="#">ADDITIONAL DC SITES<i class="fas fa-caret-down"></i></a></li>
             </ul>
         </div>
+    </div>
+    <div class="container">
         <div class="header">
             <img src="{{asset('img/dc-logo.png')}}" alt="" class="logo">
             <div class="nav">
