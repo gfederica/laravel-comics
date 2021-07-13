@@ -2,3 +2,12 @@
 
 @import 'partials/commons';
 @import 'partials/_header';
+
+
+
+.jumbotron {
+    height: 340px;
+    background-image: url("../../public/img/jumbotron.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}

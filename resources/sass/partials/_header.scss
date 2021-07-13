@@ -1,5 +1,11 @@
 @import 'partials/commons';
 
+header {
+    text-transform: uppercase;
+}
+#lowcase {
+    text-transform: initial;
+}
 
 .pre-header {
     display: flex;
@@ -19,7 +25,52 @@
         a {
             text-decoration: none;
             color: white;
-            font-size: $fontSmall;
+            font-size: $fontSmaller;
         }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+
+    #active {
+        color: $lightBlue;
+    }
+
+    .fas:not(.fa-search) {
+        color: $lightBlue;
+    }
+
+    .search {
+        border-bottom: 2px solid $lightBlue;
+        width: 140px;
+        text-align: right;
+    }
+
+    img {
+        width: 50px;
+    }
+
+    ul {
+        list-style: none;
+
+        & li {
+            padding: 12px;
+            font-weight: bold;
+
+            a {
+                text-decoration: none;
+                font-size: $fontSmall;
+                color: $grey;
+            }
+        }
+
+    }
+
+    .nav ul {
+        display: flex;        
     }
 }

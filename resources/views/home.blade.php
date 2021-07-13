@@ -13,6 +13,7 @@
         @include('partials.header')    
 
         <main>
+            <div class="jumbotron"></div>
             <h1>Main content</h1>
         </main>
 
