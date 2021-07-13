@@ -4,6 +4,8 @@ $grey: #4C4E4D;
 $fontSmaller: 10px;
 $fontSmall: 16px;
 $bgGrey: #1C1C1C;
+$lightGrey: #303030;
+$lighterGrey: #797979;
 
 * {
     box-sizing: border-box;
@@ -38,4 +40,8 @@ button {
 }
 .small-btn {
     font-size: 14px;
+}
+.empty-btn {
+    background-color: transparent;
+    border: 1px solid $lightBlue;
 }

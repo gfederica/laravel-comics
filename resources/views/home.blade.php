@@ -2,7 +2,7 @@
 
 {{-- richiamo il segnaposto con section --}}
 @section('main-content')
-    <section class="container">
+    <section class="container main">
         <button class="big-btn">CURRENT SERIES</button>
         <div class="cards">
             @foreach ($comicsArray as $comic)

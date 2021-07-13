@@ -4643,6 +4643,11 @@ button {
   font-size: 14px;
 }
 
+.empty-btn {
+  background-color: transparent;
+  border: 1px solid #0282F9;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -4676,6 +4681,11 @@ button {
 
 .small-btn {
   font-size: 14px;
+}
+
+.empty-btn {
+  background-color: transparent;
+  border: 1px solid #0282F9;
 }
 
 header {
@@ -4793,8 +4803,16 @@ button {
   font-size: 14px;
 }
 
+.empty-btn {
+  background-color: transparent;
+  border: 1px solid #0282F9;
+}
+
 .container {
   position: relative;
+}
+
+.main {
   padding: 40px 0;
 }
 
@@ -4826,6 +4844,81 @@ button {
 .small-btn {
   display: flex;
   margin: auto;
+}
+
+footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-position: center;
+  background-size: 110%;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.comics-links {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 50%;
+  padding: 40px 0;
+}
+
+.comics-links .list {
+  width: 33.3%;
+}
+
+.comics-links h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.comics-links ul {
+  list-style: none;
+}
+
+.comics-links ul li a {
+  color: #797979;
+}
+
+.social {
+  background-color: #303030;
+}
+
+.social .container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.social .left {
+  width: 20%;
+}
+
+.social .right {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social .right ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.social .right ul li {
+  padding: 0 8px;
+}
+
+.social .right ul li:first-child a {
+  color: #0282F9;
+  font-weight: bold;
+  margin-right: 8px;
 }
 
 .jumbotron {
